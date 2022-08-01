@@ -2,9 +2,9 @@ import { BiBookContent } from "react-icons/bi"
 
 const HomeContent = () => {
     return (
-        <section id="content-contest" className="flex gap-10 pt-20 lg:text-xl">
+        <section id="content-contest" className="pt-20 sm:flex sm:gap-10 lg:text-xl">
             <div className="flex-1">
-                <div className="sticky flex gap-3 top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
+                <div className="sm:sticky flex gap-3 sm:top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
                     <BiBookContent />
                     <div>CONTENT CONTESTS</div>
                 </div>

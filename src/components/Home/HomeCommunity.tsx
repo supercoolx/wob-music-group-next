@@ -2,9 +2,9 @@ import { RiCommunityFill } from "react-icons/ri"
 
 const HomeCommunity = () => {
     return (
-        <section id="community-remix-contest" className="flex gap-10 pt-40 text-lg">
+        <section id="community-remix-contest" className="pt-40 text-lg sm:flex sm:gap-10">
             <div className="flex-1">
-                <div className="sticky flex gap-3 top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
+                <div className="sm:sticky flex gap-3 sm:top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
                     <RiCommunityFill />
                     <div className="flex-1">COMMUNITY REMIX CONTESTS</div>
                 </div>

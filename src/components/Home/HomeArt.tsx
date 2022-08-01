@@ -2,9 +2,9 @@ import { GiMusicalNotes } from "react-icons/gi"
 
 const HomeArt = () => {
     return (
-        <section id="art-contest" className="flex gap-10 pt-20 lg:text-xl">
+        <section id="art-contest" className="pt-20 sm:flex sm:gap-10 lg:text-xl">
             <div className="flex-1">
-                <div className="sticky flex gap-3 items-center top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
+                <div className="sm:sticky flex gap-3 items-center sm:top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
                     <GiMusicalNotes />
                     <div>ART CONTESTS</div>
                 </div>

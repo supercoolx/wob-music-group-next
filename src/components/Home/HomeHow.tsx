@@ -2,14 +2,14 @@ import { BsFillGearFill } from "react-icons/bs";
 
 const HomeHow = () => {
     return (
-        <section id="how-it-work" className="flex gap-10 pt-40 lg:text-xl">
+        <section id="how-it-work" className="pt-40 sm:flex sm:gap-10 lg:text-xl">
             <div className="flex-1">
-                <div className="sticky top-24">
-                    <div className="lg:text-5xl flex items-center gap-3 text-3xl font-archivo text-[#eeff40]">
+                <div className="sm:sticky sm:top-24">
+                    <div className="lg:text-5xl pb-10 flex items-center gap-3 text-3xl font-archivo text-[#eeff40]">
                         <BsFillGearFill />
                         HOW IT WIL WORK
                     </div>
-                    <img src="/imgs/howitworks.png" className="w-[70%] pt-10" alt="" />
+                    <img src="/imgs/howitworks.png" className="w-[70%] hidden sm:block" alt="" />
                 </div>
             </div>
             <div className="flex flex-col flex-1 gap-10">

@@ -1,8 +1,8 @@
 const HomePhase2 = () => {
     return (
-        <section id="section-phase-2" className="flex gap-10 pt-28">
+        <section id="section-phase-2" className="sm:flex sm:gap-10 pt-28">
             <div className="flex-1">
-                <div className="sticky top-24">
+                <div className="sm:sticky sm:top-24">
                     <div className="text-lg text-green-400">Phase 2</div>
                     <div className="lg:text-5xl text-3xl text-[#eeff40] font-archivo">WOBBLE FRIENDS</div>
                     <div className="text-xl font-bold lg:text-2xl">SINGLES W/ COLLABORATORS</div>
