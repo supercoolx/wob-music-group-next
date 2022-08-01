@@ -2,6 +2,7 @@ var noise = new SimplexNoise();
 var vizInit = function () {
     var file = document.getElementById("thefile");
     var audio = document.getElementById("audio");
+    var filename = document.getElementById('filename');
 
     document.onload = function (e) {
         console.log(e);
@@ -11,7 +12,8 @@ var vizInit = function () {
     file.onchange = function () {
         var files = this.files;
         if (!files.length) return;
-
+        
+        filename.innerHTML = files[0].name;
         audio.src = URL.createObjectURL(files[0]);
         audio.load();
         audio.play();

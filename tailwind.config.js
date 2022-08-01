@@ -7,11 +7,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        archivo: ['archivo']
+        archivo: ['archivo'],
+        upheaval: ['upheaval']
       },
       animation: {
         color: 'color 2s linear infinite',
-        'fade-in': 'fade-in 1s linear'
+        'fade-in': 'fade-in 1s linear',
+        'zoom-in-out': 'zoom-in-out 1s linear infinite'
       },
       keyframes: {
         color: {
@@ -22,6 +24,9 @@ module.exports = {
             'opacity': '0',
             'transform': 'translateX(-50px)'
           }
+        },
+        'zoom-in-out': {
+          '50%': { 'transform': 'scale(1.1,1.1)' }
         }
       }
     },
