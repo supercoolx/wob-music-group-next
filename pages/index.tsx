@@ -14,8 +14,24 @@ import HomeRelease from '@components/Home/HomeRelease'
 import HomeSharing from '@components/Home/HomeSharing'
 import HomeOverview from '@components/Home/HomeOverview'
 import ScrollToTop from '@components/common/ScrollToTop'
+import { useEffect } from 'react'
 
 const Home: NextPage = () => {
+	const reveal = () => {
+		const reveals = document.querySelectorAll(".reveal:not(.animate-fade-in)");
+		for (let i = 0; i < reveals.length; i++) {
+			let windowHeight = window.innerHeight;
+			let elementTop = reveals[i].getBoundingClientRect().top;
+
+			if (elementTop < windowHeight) reveals[i].classList.add("animate-fade-in");
+		}
+	}
+
+	useEffect(() => {
+		window.addEventListener("scroll", reveal);
+		return () => window.removeEventListener("scroll", reveal);
+	}, [])
+
 	return (
 		<Container>
 			<main>

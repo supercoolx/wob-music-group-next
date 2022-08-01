@@ -1,6 +1,6 @@
 const HomeSharing = () => {
     return (
-        <section id="song-sharing" className="pb-40 lg:text-xl">
+        <section id="song-sharing" className="pt-40 lg:text-xl">
             <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40] text-center">SONG ROYALTY SHARING</div>
             <div className="pt-10">
                 <span className="font-bold">How It Works:</span> Every month there will be royalties that will

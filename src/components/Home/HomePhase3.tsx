@@ -1,6 +1,6 @@
 const HomePhase3 = () => {
     return (
-        <section id="section-phase-3" className="pb-40">
+        <section id="section-phase-3" className="pt-28">
             <div>
                 <div className="text-lg text-green-400">Phase 3</div>
                 <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40]">THE COMMUNITY EP</div>

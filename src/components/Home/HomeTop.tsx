@@ -1,6 +1,6 @@
 const HomeTop = () => {
     return (
-        <section id="wob-music-group" className="pb-32 mt-32">
+        <section id="wob-music-group" className="pt-32">
             <div className="text-transparent text-stroke lg:text-7xl sm:text-5xl text-3xl stroke-white font-archivo bg-gradient-to-r from-blue-500 via-red-500 to-blue-500 inline-block bg-clip-text animate-color bg-[length:1000px_100px]">WOB MUSIC GROUP</div>
             <div className="pt-5 lg:text-3xl sm:text-2xl text-[#eeff40]">AN INNOVATIVE WEB3 RECORD LABEL BY WOBBLEBUG</div>
             <div className="pt-10 font-bold sm:text-lg">WOBBLE LABS WILL BE THE CENTRAL HOME THAT WILL RELEASE THE MUSIC CREATED BY WOBBLEBUG

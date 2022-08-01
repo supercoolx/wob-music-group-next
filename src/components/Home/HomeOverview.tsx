@@ -1,6 +1,6 @@
 const HomeOverview = () => {
     return (
-        <section id="wobblelabs-overview" className="pb-40">
+        <section id="wobblelabs-overview" className="py-40">
             <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40] text-center">WOBBLELABS OVERVIEW</div>
             <div className="pt-10 font-bold leading-5 text-center lg:text-xl">
                 <p>CONSISTENT MUSIC RELEASES</p><br />
