@@ -3,10 +3,10 @@ const HomePhase2 = () => {
         <section id="section-phase-2" className="pb-28">
             <div>
                 <div className="text-lg text-green-400">Phase 2</div>
-                <div className="text-5xl text-[#eeff40] font-archivo">WOBBLE FRIENDS</div>
-                <div className="text-2xl font-bold">SINGLES W/ COLLABORATORS</div>
+                <div className="lg:text-5xl text-3xl text-[#eeff40] font-archivo">WOBBLE FRIENDS</div>
+                <div className="text-xl font-bold lg:text-2xl">SINGLES W/ COLLABORATORS</div>
             </div>
-            <div className="flex justify-between gap-5 pt-10">
+            <div className="flex flex-wrap justify-between gap-5 pt-10">
                 <div className="w-full p-5 bg-green-400 shadow-lg shadow-black rounded-2xl text-stone-800">
                     <div className="text-2xl font-bold">SINGLE 1</div>
                     <div className="pt-3 font-bold">Title: </div>
@@ -38,7 +38,7 @@ const HomePhase2 = () => {
                     <div className="font-bold">Release Date: </div>
                 </div>
             </div>
-            <div className="flex justify-between gap-5 pt-5">
+            <div className="flex flex-wrap justify-between gap-5 pt-5">
                 <div className="w-full p-5 bg-teal-400 shadow-lg shadow-black rounded-2xl text-stone-800">
                     <div className="text-2xl font-bold">SINGLE 1 REMIXES</div>
                     <div className="pt-3 font-bold">REMIX A: WOB HOLDER</div>

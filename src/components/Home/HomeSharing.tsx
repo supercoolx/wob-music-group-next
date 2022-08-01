@@ -1,7 +1,7 @@
 const HomeSharing = () => {
     return (
-        <section id="song-sharing" className="pb-40 text-xl">
-            <div className="text-5xl font-archivo text-[#eeff40] text-center">SONG ROYALTY SHARING</div>
+        <section id="song-sharing" className="pb-40 lg:text-xl">
+            <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40] text-center">SONG ROYALTY SHARING</div>
             <div className="pt-10">
                 <span className="font-bold">How It Works:</span> Every month there will be royalties that will
                 be paid out from the WL&apos;s music distributor into the community Solana wallet. Part of those

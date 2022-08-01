@@ -1,11 +1,11 @@
 const HomeRelease = () => {
     return (
-        <section id="song-release" className="pb-40">
-            <div className="text-5xl font-archivo text-[#eeff40] text-center">CREATIVE & MARKETING AROUND SONG RELEASES</div>
-            <p className="pt-10 text-xl font-bold">
+        <section id="song-release" className="pb-40 lg:text-xl">
+            <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40] text-center">CREATIVE & MARKETING AROUND SONG RELEASES</div>
+            <p className="pt-10 font-bold">
                 EACH SONG RELEASE WILL HAVE THE FOLLOWING BEHIND IT TO HELP ENSURE ITS SUCCESS. 
             </p><br />
-            <ul className="text-xl">
+            <ul>
                 <li>- DJ Promo to all the biggest DJs in the game and their teams.</li>
                 <li>- Promo to all the electronic radio shows, podcasts and stations.</li>
                 <li>- Our Distribution partner will be pitching to Spotify/Apple etc for playlisting opportunities for each song.</li>

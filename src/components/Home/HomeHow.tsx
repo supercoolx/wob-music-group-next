@@ -1,7 +1,7 @@
 const HomeHow = () => {
     return (
-        <section id="how-it-work" className="pb-40 text-xl">
-            <div className="text-5xl font-archivo text-[#eeff40] text-center">HOW IT WIL WORK</div>
+        <section id="how-it-work" className="pb-40 lg:text-xl">
+            <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40] text-center">HOW IT WIL WORK</div>
             <p className="pt-10">
                 <span className="font-bold">Song Releases:</span> For each song release we will provide the below
                 opportunities for the community to essentially be our label partner and help make decisions about

@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
+import Container from '@components/common/Container'
 import HTMLHeader from '@components/Home/HTMLHeader'
+import Header from '@components/Header'
 import HomeTop from '@components/Home/HomeTop'
 import HomePhase1 from '@components/Home/HomePhase1'
 import HomePhase2 from '@components/Home/HomePhase2'
@@ -15,9 +17,10 @@ import ScrollToTop from '@components/common/ScrollToTop'
 
 const Home: NextPage = () => {
 	return (
-		<div>
-			<HTMLHeader />
+		<Container>
 			<main>
+				<HTMLHeader />
+				<Header />
 				<HomeTop />
 				<HomePhase1 />
 				<HomePhase2 />
@@ -29,9 +32,9 @@ const Home: NextPage = () => {
 				<HomeRelease />
 				<HomeSharing />
 				<HomeOverview />
+				<ScrollToTop />
 			</main>
-			<ScrollToTop />
-		</div>
+		</Container>
 	)
 }
 

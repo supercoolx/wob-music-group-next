@@ -2,8 +2,8 @@ const HomePhase3 = () => {
     return (
         <section id="section-phase-3" className="pb-40">
             <div>
-                <div className="text-lg text-green-400">Phase 2</div>
-                <div className="text-5xl font-archivo text-[#eeff40]">THE COMMUNITY EP</div>
+                <div className="text-lg text-green-400">Phase 3</div>
+                <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40]">THE COMMUNITY EP</div>
                 <div className="pt-10 text-lg font-bold text-center">
                     A COLLECTION OF 5 SONGS ON AN EP THAT WERE ALL ORIGINALLY CREATED AND SOURCED BY
                     THE COMMUNITY AND COLLABORATED ON WITH WOBBLEBUG AND HIS TEAM OF PRODUCERS.
