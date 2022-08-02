@@ -1,26 +1,18 @@
 var noise = new SimplexNoise();
 var vizInit = function () {
-    var file = document.getElementById("thefile");
     var audio = document.getElementById("audio");
-    var filename = document.getElementById('filename');
+    
+    const onplay = audio.onplay;
+    audio.onplay = () => {
+        if (onplay) onplay();
+        play();
+    }
 
-    document.onload = function (e) {
-        console.log(e);
-        audio.play();
-        play();
-    }
-    file.onchange = function () {
-        var files = this.files;
-        if (!files.length) return;
-        
-        filename.innerHTML = files[0].name;
-        audio.src = URL.createObjectURL(files[0]);
-        audio.load();
-        audio.play();
-        play();
-    }
+    var once = false;
 
     function play() {
+        if (once) return;
+        once = true;
         var context = new AudioContext();
         var src = context.createMediaElementSource(audio);
         var analyser = context.createAnalyser();
@@ -145,8 +137,6 @@ var vizInit = function () {
             mesh.geometry.computeVertexNormals();
             mesh.geometry.computeFaceNormals();
         }
-
-        audio.play();
     };
 }
 

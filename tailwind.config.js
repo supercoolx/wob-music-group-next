@@ -13,7 +13,8 @@ module.exports = {
       animation: {
         color: 'color 2s linear infinite',
         'fade-in': 'fade-in 1s linear',
-        'zoom-in-out': 'zoom-in-out 1s linear infinite'
+        'zoom-in-out': 'zoom-in-out 1s linear infinite',
+        'zoom-color': 'zoom-in-out 1s linear infinite, color .5s linear infinite'
       },
       keyframes: {
         color: {
@@ -26,7 +27,7 @@ module.exports = {
           }
         },
         'zoom-in-out': {
-          '50%': { 'transform': 'scale(1.1,1.1)' }
+          '50%': { 'transform': 'scale(1.2,1.2)' }
         }
       }
     },
