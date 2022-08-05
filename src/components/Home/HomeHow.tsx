@@ -2,7 +2,7 @@ const HomeHow = () => {
     return (
         <section id="how-it-work" className="pt-40 lg:text-xl">
             <div className="pb-10 text-3xl lg:text-4xl font-monument">
-                HOW IT WIL WORK
+                HOW IT WILL WORK
             </div>
             <div className="p-10 space-y-16 rounded-lg bg-stone-800">
                 <div>
