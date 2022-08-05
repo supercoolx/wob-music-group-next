@@ -13,8 +13,8 @@ import HomeContent from '@components/Home/HomeContent'
 import HomeRelease from '@components/Home/HomeRelease'
 import HomeSharing from '@components/Home/HomeSharing'
 import HomeOverview from '@components/Home/HomeOverview'
+import Footer from '@components/Footer'
 import ScrollToTop from '@components/common/ScrollToTop'
-import { useEffect } from 'react'
 
 const Home: NextPage = () => {
 	// const reveal = () => {
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 
 	return (
 		<Container>
-			<main>
+			<main className='font-chicago'>
 				<HTMLHeader />
 				<Header />
 				<HomeTop />
@@ -48,6 +48,7 @@ const Home: NextPage = () => {
 				<HomeRelease />
 				<HomeSharing />
 				<HomeOverview />
+				<Footer />
 				<ScrollToTop />
 			</main>
 		</Container>

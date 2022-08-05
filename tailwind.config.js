@@ -9,7 +9,7 @@ module.exports = {
       fontFamily: {
         monument: ['monument'],
         'monument-bold': ['monument-bold'],
-        upheaval: ['upheaval']
+        chicago: ['chicago']
       },
       animation: {
         color: 'color 2s linear infinite',
