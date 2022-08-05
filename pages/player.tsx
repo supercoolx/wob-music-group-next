@@ -46,7 +46,7 @@ const Player: NextPage = () => {
 			<div className='fixed flex flex-col justify-between w-screen h-screen p-10'>
 				<div className='flex justify-between'>
 					<Link href='/'>
-						<div className='inline-block p-3 text-3xl text-white transition-all duration-300 bg-green-600 rounded-full cursor-pointer file right-3 top-5 hover:-translate-y-1'>
+						<div className='inline-block p-3 text-3xl text-white transition-all duration-300 rounded-full cursor-pointer bg-rose-600 file right-3 top-5 hover:-translate-y-1'>
 							<AiFillHome />
 						</div>
 					</Link>
@@ -54,14 +54,14 @@ const Player: NextPage = () => {
 					<div />
 				</div>
 				<div className='flex flex-col items-center justify-between gap-5 sm:flex-row'>
-					<div className='flex-1 text-3xl text-center sm:text-left'>
+					<div className='flex-1 text-3xl text-center sm:text-left font-chicago'>
 						<div className='text-gray-400'>SONG PLAYING</div>
 						<div>{musics[index]}</div>
 					</div>
 					<div className='flex-1 text-5xl text-center animate-zoom-color whitespace-nowrap text-transparent bg-clip-text bg-[length:1000px_100px] bg-[linear-gradient(90deg,#f00,#0f0,#00f)]'>
 						{/* <Image src="/imgs/player.png" width={300} height={300} /> */}
 					</div>
-					<div className='flex-1 text-3xl text-center sm:text-right'>
+					<div className='flex-1 text-3xl text-center sm:text-right font-chicago'>
 						<div className='text-gray-400'>PLAYTIME</div>
 						<div>{new Date(1000 * time).toISOString().substr(11, 8)}</div>
 					</div>

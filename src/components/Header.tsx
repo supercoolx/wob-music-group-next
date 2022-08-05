@@ -24,7 +24,7 @@ const Header = () => {
                             <div className="flex flex-col gap-3 pt-5 text-4xl text-black font-monument">
                                 <Link href="#wob-music-group"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">WOBBLE</div></Link>
                                 <Link href="#section-phase-1"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">PHASE</div></Link>
-                                <Link href="#how-it-work"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">HOW IT WORK</div></Link>
+                                <Link href="#how-it-work"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">HOW IT WILL WORK</div></Link>
                                 <Link href="#community-remix-contest"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">COMMUNITY</div></Link>
                                 <Link href="#art-contest"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">ART</div></Link>
                                 <Link href="#content-contest"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">CONTENT</div></Link>

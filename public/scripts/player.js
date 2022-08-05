@@ -50,7 +50,7 @@ var vizInit = function () {
 
         var icosahedronGeometry = new THREE.IcosahedronGeometry(10, 4);
         var lambertMaterial = new THREE.MeshLambertMaterial({
-            color: 0xff00ee,
+            color: 0xe11d48,
             wireframe: true
         });
 
