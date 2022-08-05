@@ -3,7 +3,7 @@ const HomePhase1 = () => {
         <section id="section-phase-1" className="gap-10 pt-40 lg:flex">
             <div className="flex-[2]">
                 <div className="text-lg">PHASE ONE</div>
-                <div className="mt-3 text-3xl lg:text-4xl font-monument">DEBUT SINGLES AND EP'S</div>
+                <div className="mt-3 text-3xl lg:text-4xl font-monument">DEBUT SINGLES AND EP&apos;S</div>
                 <div className="mt-10">
                     AS A WOBBLEBUG HOLDER, YOU WILL BE ABLE TO PARTICIPATE IN CONTESTS TO HAVE THE CHANCE TO
                     COLLABORATE WITH WOBBLEBUG AND HAVE YOUR SONG AND / OR REMIX RELEASED OFFICIALLY ON WOBBLE LABS AND 

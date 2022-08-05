@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <div className="sticky top-0 z-10 flex items-center justify-between w-full gap-5 py-5 bg-black sm:gap-20">
             <div className="cursor-pointer" >
-                <Image src="/imgs/logo.png" width={48} height={48} />
+                <Image src="/imgs/logo.png" width={48} height={48} alt="wob music" />
             </div>
             <div className="flex">
                 <div className="z-10 flex items-center justify-center w-12 h-12">

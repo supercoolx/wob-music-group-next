@@ -38,10 +38,10 @@ const Player: NextPage = () => {
 	return (
 		<div id='content'>
 			<HTMLHeader />
-            <Script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js' strategy='beforeInteractive' />
-            <Script src='https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js' strategy='beforeInteractive' />
-            <Script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.3/dat.gui.min.js' strategy='beforeInteractive' />
-            <Script src='https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.3.0/simplex-noise.min.js' strategy='beforeInteractive' />
+            <Script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js' />
+            <Script src='https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js' />
+            <Script src='https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.3/dat.gui.min.js' />
+            <Script src='https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.3.0/simplex-noise.min.js' />
             <Script src='/scripts/player.js' />
 			<div className='fixed flex flex-col justify-between w-screen h-screen p-10'>
 				<div className='flex justify-between'>
