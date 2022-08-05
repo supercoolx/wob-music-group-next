@@ -1,15 +1,10 @@
-import { GiMusicalNotes } from "react-icons/gi"
-
 const HomeArt = () => {
     return (
-        <section id="art-contest" className="pt-20 sm:flex sm:gap-10 lg:text-xl">
-            <div className="flex-1">
-                <div className="sm:sticky flex gap-3 items-center sm:top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
-                    <GiMusicalNotes />
-                    <div>ART CONTESTS</div>
-                </div>
+        <section id="art-contest" className="pt-40 lg:text-xl">
+            <div className="pb-10 text-3xl lg:text-4xl font-monument">
+                ART CONTESTS
             </div>
-            <div className="flex-1">
+            <div className="p-10 rounded-lg bg-stone-800">
                 <p>
                     The remix artwork for each song will be sourced from the community. MegaWob
                     holders can submit their remix art to us and the team will choose the top 3

@@ -2,14 +2,11 @@ import { BiBookContent } from "react-icons/bi"
 
 const HomeContent = () => {
     return (
-        <section id="content-contest" className="pt-20 sm:flex sm:gap-10 lg:text-xl">
-            <div className="flex-1">
-                <div className="sm:sticky flex gap-3 sm:top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
-                    <BiBookContent />
-                    <div>CONTENT CONTESTS</div>
-                </div>
+        <section id="content-contest" className="pt-40 lg:text-xl">
+            <div className="pb-10 text-3xl lg:text-4xl font-monument">
+                CONTENT CONTESTS
             </div>
-            <div className="flex-1">
+            <div className="p-10 rounded-lg bg-stone-800">
                 <p>
                     For our song releases to do well we are going to need a consistent stream of content that
                     feature the songs. That&apos;s where the community comes into play, we have one of the most

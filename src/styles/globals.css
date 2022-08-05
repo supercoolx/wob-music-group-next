@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'archivo';
-    src: url('/fonts/ArchivoBlack-Regular.ttf');
+    font-family: 'monument';
+    src: url('/fonts/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+    font-family: 'monument-bold';
+    src: url('/fonts/MonumentExtended-Ultrabold.otf');
 }
 
 @font-face {

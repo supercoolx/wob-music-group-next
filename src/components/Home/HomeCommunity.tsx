@@ -1,15 +1,10 @@
-import { RiCommunityFill } from "react-icons/ri"
-
 const HomeCommunity = () => {
     return (
-        <section id="community-remix-contest" className="pt-40 text-lg sm:flex sm:gap-10">
-            <div className="flex-1">
-                <div className="sm:sticky flex gap-3 sm:top-24 lg:text-5xl text-3xl font-archivo text-[#eeff40]">
-                    <RiCommunityFill />
-                    <div className="flex-1">COMMUNITY REMIX CONTESTS</div>
-                </div>
+        <section id="community-remix-contest" className="pt-40 lg:text-xl">
+            <div className="pb-10 text-3xl lg:text-4xl font-monument">
+                COMMUNITY REMIX CONTESTS
             </div>
-            <div className="flex-1">
+            <div className="p-10 rounded-lg bg-stone-800">
                 <p>
                     The remix for each song will be sourced from the community. MegaWob holders can submit
                     their remix and the team will choose the top 3 submissions to be put on the website for

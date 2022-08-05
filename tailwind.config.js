@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        archivo: ['archivo'],
+        monument: ['monument'],
+        'monument-bold': ['monument-bold'],
         upheaval: ['upheaval']
       },
       animation: {

@@ -1,74 +1,82 @@
 const HomePhase2 = () => {
     return (
-        <section id="section-phase-2" className="sm:flex sm:gap-10 pt-28">
-            <div className="flex-1">
-                <div className="sm:sticky sm:top-24">
-                    <div className="text-lg text-green-400">Phase 2</div>
-                    <div className="lg:text-5xl text-3xl text-[#eeff40] font-archivo">WOBBLE FRIENDS</div>
-                    <div className="text-xl font-bold lg:text-2xl">SINGLES W/ COLLABORATORS</div>
-                    <img src="/imgs/friends.png" className="w-[80%] pt-10" alt="" />
+        <section id="section-phase-1" className="gap-10 pt-40 lg:flex">
+            <div className="flex-[2]">
+                <div className="text-lg">PHASE TWO</div>
+                <div className="mt-3 text-2xl lg:text-4xl font-monument">WOBBLE FRENS</div>
+                <div className="mt-10">
+                    SINGLES AND COLLABORATIONS<br /><br />
+                    FOR EVERY SINGLE THAT IS RELEASED THERE WILL BE A REMIX
+                    THAT IS CHOSEN FROM A WOB HOLDER TO BE RELEASED OFFICIALLY.
                 </div>
             </div>
-            <div className="flex flex-col flex-1 gap-5 pt-10">
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-green-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 1</div>
-                    <div className="pt-3 font-bold">Title: </div>
-                    <div className="font-bold">Collab: </div>
-                    <div className="font-bold">Release Date: </div>
+            <div className="flex-[3] pt-5 lg:pt-0">
+                <div className="px-10 space-y-5 rounded-md py-7 bg-stone-800 font-monument">
+                    <div className="text-2xl font-monument-bold">COLLAB EP</div>
+                    <div>10 SONGS</div>
+                    <div>RELEASE DATE TBA</div>
                 </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-green-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 2</div>
-                    <div className="pt-3 font-bold">Title: </div>
-                    <div className="font-bold">Collab: </div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-green-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 3</div>
-                    <div className="pt-3 font-bold">Title: </div>
-                    <div className="font-bold">Collab: </div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-green-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 4</div>
-                    <div className="pt-3 font-bold">Title: </div>
-                    <div className="font-bold">Collab: </div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-green-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 5</div>
-                    <div className="pt-3 font-bold">Title: </div>
-                    <div className="font-bold">Collab: </div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-teal-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 1 REMIXES</div>
-                    <div className="pt-3 font-bold">REMIX A: WOB HOLDER</div>
-                    <div className="font-bold">REMIX B: WOB HOLDER</div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-teal-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 2 REMIXES</div>
-                    <div className="pt-3 font-bold">REMIX A: WOB HOLDER</div>
-                    <div className="font-bold">REMIX B: WOB HOLDER</div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-teal-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 3 REMIXES</div>
-                    <div className="pt-3 font-bold">REMIX A: WOB HOLDER</div>
-                    <div className="font-bold">REMIX B: WOB HOLDER</div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-teal-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 4 REMIXES</div>
-                    <div className="pt-3 font-bold">REMIX A: WOB HOLDER</div>
-                    <div className="font-bold">REMIX B: WOB HOLDER</div>
-                    <div className="font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal cursor-pointer hover:scale-[1.1] transition-all duration-300 bg-teal-400 shadow-lg shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 5 REMIXES</div>
-                    <div className="pt-3 font-bold">REMIX A: WOB HOLDER</div>
-                    <div className="font-bold">REMIX B: WOB HOLDER</div>
-                    <div className="font-bold">Release Date: </div>
+                <div className="grid grid-cols-3 gap-5 pt-5 sm:grid-cols-5">
+                    <div className="p-3 text-[10px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />01</div>
+                        <div className="pt-3">TITLE: </div>
+                        <div>COLLAB: </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[10px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />02</div>
+                        <div className="pt-3">TITLE: </div>
+                        <div>COLLAB: </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[10px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />03</div>
+                        <div className="pt-3">TITLE: </div>
+                        <div>COLLAB: </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[10px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />04</div>
+                        <div className="pt-3">TITLE: </div>
+                        <div>COLLAB: </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[10px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />05</div>
+                        <div className="pt-3">TITLE: </div>
+                        <div>COLLAB: </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[9px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />01</div>
+                        <div className="pt-3">REMIX A: WOB HOLDER </div>
+                        <div>REMIX B: WOB HOLDER </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[9px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />02</div>
+                        <div className="pt-3">REMIX A: WOB HOLDER </div>
+                        <div>REMIX B: WOB HOLDER </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[9px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />03</div>
+                        <div className="pt-3">REMIX A: WOB HOLDER </div>
+                        <div>REMIX B: WOB HOLDER </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[9px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />04</div>
+                        <div className="pt-3">REMIX A: WOB HOLDER </div>
+                        <div>REMIX B: WOB HOLDER </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-3 text-[9px] bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-lg">
+                        <div className="text-xs font-monument">SINGLE<br />05</div>
+                        <div className="pt-3">REMIX A: WOB HOLDER </div>
+                        <div>REMIX B: WOB HOLDER </div>
+                        <div className="pt-3">RELEASE DATE: </div>
+                    </div>
                 </div>
             </div>
         </section>

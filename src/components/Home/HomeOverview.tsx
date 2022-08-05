@@ -1,8 +1,8 @@
 const HomeOverview = () => {
     return (
-        <section id="wobblelabs-overview" className="py-40">
-            <div className="lg:text-5xl text-3xl font-archivo text-[#eeff40] text-center">WOBBLELABS OVERVIEW</div>
-            <div className="pt-10 font-bold leading-5 text-center lg:text-xl">
+        <section id="wobblelabs-overview" className="py-40 lg:text-xl">
+            <div className="pb-10 text-3xl lg:text-4xl font-monument">WOBBLELABS OVERVIEW</div>
+            <div className="p-10 text-center rounded-lg bg-stone-800 font-monument">
                 <p>CONSISTENT MUSIC RELEASES</p><br />
                 <p>CONSISTENT OPPORTUNITY TO HAVE YOUR MUSIC RELEASED BY WOBBLE LABS</p><br />
                 <p>CONSISTENT OPPORTUNITY FOR HOLDERS TO BE REWARDED</p><br />

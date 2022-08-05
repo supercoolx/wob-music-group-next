@@ -5,7 +5,7 @@ const HTMLHeader = () => {
         <Head>
             <title>WOB MUSIC PLAYER</title>
             <meta name='description' content='An innovative web3 record label by wooblebug.' />
-            <link rel='icon' href='/favicon.ico' />
+            <link rel='icon' href='/favicon.png' />
         </Head>
     )
 }

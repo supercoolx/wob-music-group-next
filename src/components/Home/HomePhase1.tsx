@@ -1,44 +1,51 @@
 const HomePhase1 = () => {
     return (
-        <section id="section-phase-1" className="sm:flex sm:gap-10 pt-28">
-            <div className="flex-1">
-                <div className="sm:sticky sm:top-24">
-                    <div className="text-lg text-green-400">Phase 1</div>
-                    <div className="lg:text-5xl text-3xl text-[#eeff40] font-archivo">THE DEBUT SINGLES & EP</div>
-                    <div className="p-6 mt-10 text-center text-yellow-300 bg-blue-600 shadow-lg shadow-black rounded-2xl">
-                        <div className="text-3xl font-bold">WOBBLEBUG DEBUT EP</div>
-                        <div className="text-xl font-bold">6 SONGS</div>
-                        <div className="pt-3 font-bold">Release Date: TBA</div>
-                    </div>
+        <section id="section-phase-1" className="gap-10 pt-40 lg:flex">
+            <div className="flex-[2]">
+                <div className="text-lg">PHASE ONE</div>
+                <div className="mt-3 text-3xl lg:text-4xl font-monument">DEBUT SINGLES AND EP'S</div>
+                <div className="mt-10">
+                    AS A WOBBLEBUG HOLDER, YOU WILL BE ABLE TO PARTICIPATE IN CONTESTS TO HAVE THE CHANCE TO
+                    COLLABORATE WITH WOBBLEBUG AND HAVE YOUR SONG AND / OR REMIX RELEASED OFFICIALLY ON WOBBLE LABS AND 
+                    EARN A PERCENTAGE OF THE ROYALTIES IN THE SONG AS AN OFFICIAL SONG PRODUCER.<br /><br />
+                    COMMUNITY MEMBERS CAN ALSO PARTICIPATE IN ARTWORK AND CONTENT CONTESTS FOR EACH SONG RELEASE
+                    EARNING PRIZES AND $WOB TO BE USED IN THE $WOB SHOP.
                 </div>
             </div>
-            <div className="flex flex-col flex-1 gap-5 pt-10">
-                <div className="p-5 reveal bg-green-400 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 1</div>
-                    <div className="pt-3 text-lg font-bold">Title: </div>
-                    <div className="text-lg font-bold">Release Date: </div>
+            <div className="flex-[3] pt-5 lg:pt-0">
+                <div className="px-10 space-y-5 rounded-md py-7 bg-stone-800 font-monument">
+                    <div className="text-2xl font-monument-bold">WOBBLEBUG EP</div>
+                    <div>6 SONGS</div>
+                    <div>RELEASE DATE TBA</div>
                 </div>
-                <div className="p-5 reveal bg-green-400 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 2</div>
-                    <div className="pt-3 text-lg font-bold">Title: </div>
-                    <div className="text-lg font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal bg-green-400 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 3</div>
-                    <div className="pt-3 text-lg font-bold">Title: </div>
-                    <div className="text-lg font-bold">Release Date: </div>
-                </div>
-                <div className="p-5 reveal bg-teal-400 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 1</div>
-                    <div className="pt-3 text-lg font-bold">REMIX BY WOB HOLDER</div>
-                </div>
-                <div className="p-5 reveal bg-teal-400 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 2</div>
-                    <div className="pt-3 text-lg font-bold">REMIX BY WOB HOLDER</div>
-                </div>
-                <div className="p-5 reveal bg-teal-400 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-2xl text-stone-800">
-                    <div className="text-2xl font-bold">SINGLE 3</div>
-                    <div className="pt-3 text-lg font-bold">REMIX BY WOB HOLDER</div>
+                <div className="grid grid-cols-2 gap-5 pt-5 sm:grid-cols-3">
+                    <div className="p-5 bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-xl">
+                        <div className="text-lg font-monument">SINGLE<br />01</div>
+                        <div className="pt-3 text-sm">TITLE: </div>
+                        <div className="text-sm">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-5 bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-xl">
+                        <div className="text-lg font-monument">SINGLE<br />02</div>
+                        <div className="pt-3 text-sm">TITLE: </div>
+                        <div className="text-sm">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-5 bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-xl">
+                        <div className="text-lg font-monument">SINGLE<br />03</div>
+                        <div className="pt-3 text-sm">TITLE: </div>
+                        <div className="text-sm">RELEASE DATE: </div>
+                    </div>
+                    <div className="p-5 bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-xl">
+                        <div className="text-lg font-monument">SINGLE<br />01</div>
+                        <div className="pt-3 text-sm">REMIX BY WOB HOLDER</div>
+                    </div>
+                    <div className="p-5 bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-xl">
+                        <div className="text-lg font-monument">SINGLE<br />02</div>
+                        <div className="pt-3 text-sm">REMIX BY WOB HOLDER</div>
+                    </div>
+                    <div className="p-5 bg-fuchsia-700 shadow-lg cursor-pointer hover:scale-[1.1] transition-all duration-300 shadow-black rounded-xl">
+                        <div className="text-lg font-monument">SINGLE<br />03</div>
+                        <div className="pt-3 text-sm">REMIX BY WOB HOLDER</div>
+                    </div>
                 </div>
             </div>
         </section>
