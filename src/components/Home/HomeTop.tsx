@@ -1,6 +1,6 @@
-import Link from "next/link";
-
 const HomeTop = () => {
+    const goToPlayer = () => location.href = '/player';
+
     return (
         <section id="wob-music-group" className="pt-32">
             <div className="text-3xl lg:text-7xl sm:text-5xl font-monument">WOB MUSIC<br />GROUP.</div>
@@ -10,11 +10,9 @@ const HomeTop = () => {
                 OTHER ARTIST WOULD. THE MUSIC WILL BE AVAILABLE ON THE TRADITIONAL PLATFORMS INCLUDING
                 SPOTIFY, APPLE, AMAZON, YOUTUBE, AUDIUS AND MORE. 
             </div>
-            <Link href="/player">
-                <div className="pt-28">
-                    <button className="px-5 py-3 text-black rounded-2xl bg-rose-600 hover:bg-rose-500 font-monument">ENTER WOB MUSIC PLAYER</button>
-                </div>
-            </Link>
+            <div className="pt-28">
+                <button onClick={goToPlayer} className="px-5 py-3 text-black rounded-2xl bg-rose-600 hover:bg-rose-500 font-monument">ENTER WOB MUSIC PLAYER</button>
+            </div>
         </section>
     )
 }
