@@ -1,7 +1,5 @@
 import Link from "next/link"
-import Image from "next/image"
 import { useState } from "react"
-import { FaMusic } from "react-icons/fa"
 import Container from "./common/Container"
 
 const Header = () => {
@@ -12,7 +10,7 @@ const Header = () => {
     return (
         <div className="sticky top-0 z-10 flex items-center justify-between w-full gap-5 py-5 bg-black sm:gap-20">
             <div className="cursor-pointer" >
-                <Image src="/imgs/logo.png" width={48} height={48} alt="wob music" />
+                <img src="/imgs/logo.png" width={48} height={48} alt="wob music" />
             </div>
             <div className="flex">
                 <div className="z-10 flex items-center justify-center w-12 h-12">
@@ -31,7 +29,7 @@ const Header = () => {
                                 <Link href="#song-release"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">CREATIVE</div></Link>
                                 <Link href="#song-sharing"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">ROYALTY</div></Link>
                                 <Link href="#wobblelabs-overview"><div onClick={toggleMenu} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">OVERVIEW</div></Link>
-                                <div onClick={() => location.href = "/player"} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">WOB MUSIC PLAYER</div>
+                                <div onClick={() => location.href = "/player.html"} className="transition-all duration-500 cursor-pointer hover:translate-x-20 hover:text-yellow-200">WOB MUSIC PLAYER</div>
                             </div>
                         </Container>
                     </div>

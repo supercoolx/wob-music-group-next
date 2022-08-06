@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Link from 'next/link';
-import Image from 'next/image';
 import Script from 'next/script';
 import HTMLHeader from '@components/Player/HTMLHeader'
 import { AiFillHome, AiFillPlayCircle, AiFillPauseCircle, AiFillForward, AiFillBackward } from 'react-icons/ai'
@@ -45,11 +44,9 @@ const Player: NextPage = () => {
             <Script src='/scripts/player.js' />
 			<div className='fixed flex flex-col justify-between w-screen h-screen p-10'>
 				<div className='flex justify-between'>
-					<Link href='/'>
-						<div className='inline-block p-3 text-3xl text-white transition-all duration-300 rounded-full cursor-pointer bg-rose-600 file right-3 top-5 hover:-translate-y-1'>
-							<AiFillHome />
-						</div>
-					</Link>
+					<div onClick={() => location.href = '/'} className='inline-block p-3 text-3xl text-white transition-all duration-300 rounded-full cursor-pointer bg-rose-600 file right-3 top-5 hover:-translate-y-1'>
+						<AiFillHome />
+					</div>
 					<div className='text-5xl sm:block hidden bg-gradient-to-r from-fuchsia-500 via-red-500 to-fuchsia-500 text-transparent bg-clip-text animate-color bg-[length:1000px_100px] font-monument'>WOB MUSIC PLAYER</div>
 					<div />
 				</div>
@@ -59,7 +56,7 @@ const Player: NextPage = () => {
 						<div>{musics[index]}</div>
 					</div>
 					<div className='flex-1 text-5xl text-center animate-zoom-color whitespace-nowrap text-transparent bg-clip-text bg-[length:1000px_100px] bg-[linear-gradient(90deg,#f00,#0f0,#00f)]'>
-						{/* <Image src="/imgs/player.png" width={300} height={300} /> */}
+						{/* <img src="/imgs/player.png" width={300} height={300} /> */}
 					</div>
 					<div className='flex-1 text-3xl text-center sm:text-right font-chicago'>
 						<div className='text-gray-400'>PLAYTIME</div>

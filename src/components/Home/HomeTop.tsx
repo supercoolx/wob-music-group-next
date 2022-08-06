@@ -1,5 +1,5 @@
 const HomeTop = () => {
-    const goToPlayer = () => location.href = '/player';
+    const goToPlayer = () => location.href = '/player.html';
 
     return (
         <section id="wob-music-group" className="pt-32">
